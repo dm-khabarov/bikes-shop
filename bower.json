@@ -1,0 +1,21 @@
+{
+  "name": "Bikes-shop",
+  "version": "1.0.0",
+  "authors": [
+    "Dmitriy Khabarov <nixvod@gmail.com>"
+  ],
+  "description": "website frontend",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize.css": "~3.0.2"
+  }
+}
