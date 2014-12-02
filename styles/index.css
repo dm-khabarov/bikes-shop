@@ -5,11 +5,54 @@
   Slider Section
 */
 
-.banner-slider {
-    max-width: 980px;
+.slides .slide1, .slides .slide2, .slides .slide3 {
     height: 559px;
-    background: url("../images/slide1-bg.jpg") no-repeat top center;
-    margin: 0 auto;
+}
+.slides .slide1 {
+    background: url("../images/slide1-bg.jpg") no-repeat top left;
+}
+.slides .slide2 {
+    background: url("../images/slide1-bg.jpg") no-repeat top left;
+}
+.slides .slide3 {
+    background: url("../images/slide1-bg.jpg") no-repeat top left;
+}
+.slides p {
+    font: 3.750em/1em Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top: 160px;
+    margin: 0;
+}
+.slick-slider {
+    margin-bottom: 0;
+    /*Overwrite Slick Button Margin 30px*/
+}
+.slider {
+    position: relative;
+}
+.slider .thumbnails {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    bottom: 30px;
+    left: 24.7%;
+}
+.slider .thumbnails ul {
+    margin: 0;
+    padding: 0;
+}
+.slider .thumbnails li {
+    list-style-type: none;
+    float: left;
+    margin: 0 8px;
+}
+.slider .thumbnails img {
+    border: 4px solid #fff;
+    /*For active #a1877f*/
+    
+    cursor: pointer;
 }
 /*
   Bestseller section
@@ -39,11 +82,25 @@
     left: 22px;
 }
 .sale-label {
+    position: relative;
     background: #ebe4e1;
     padding: 30px 16px 15px 36px;
     margin-left: 455px;
     margin-right: 0;
 }
+.sale-label:after {
+    content: "";
+    position: absolute;
+    top: 38px;
+    left: -20px;
+    border-style: solid;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #ebe4e1;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
 .bestseller .price {
     margin: 23px 0 15px 0;
     font: 5.625em/1em Verdana, Geneva, sans-serif;
