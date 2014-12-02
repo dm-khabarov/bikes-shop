@@ -100,7 +100,6 @@
     width: 0;
     z-index: 1;
 }
-
 .bestseller .price {
     margin: 23px 0 15px 0;
     font: 5.625em/1em Verdana, Geneva, sans-serif;
@@ -127,6 +126,25 @@
 
 .orders-slider {
     overflow: hidden;
+    position: relative;
+}
+.nextBtn {
+  position: absolute;
+  top: 84px;
+  right: 22px;
+  z-index: 2;
+}
+.nextBtn > div {
+  width: 47px;
+  height: 75px;
+  background-color: #ebe4e1;
+  opacity: 0.57;
+}
+
+.nextBtn > img {
+  position: absolute;
+  top: 16px;
+  left: 14px;
 }
 .orders-slider .order-image {
     display: table-cell;
@@ -143,6 +161,13 @@
 .orders-slider li {
     display: inline-block;
     margin-left: 40px;
+    border-width: 3px 0 0 0;
+    border-style: solid;
+    border-color: transparent;
+    cursor: pointer;
+}
+.orders-slider li:hover {
+  border-color: #ffcc00;
 }
 .orders-slider li:first-child {
     margin: 0;
