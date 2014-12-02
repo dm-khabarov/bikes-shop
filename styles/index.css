@@ -1,0 +1,130 @@
+/*
+  Styles for index.html
+*/
+/*
+  Slider Section
+*/
+
+.banner-slider {
+    max-width: 980px;
+    height: 559px;
+    background: url("../images/slide1-bg.jpg") no-repeat top center;
+    margin: 0 auto;
+}
+/*
+  Bestseller section
+*/
+
+.bestseller {
+    overflow: hidden;
+    height: 300px;
+}
+.bestseller .sale-img {
+    position: relative;
+    width: 455px;
+    float: left;
+}
+.bestseller .sale-img div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../images/bestseller_03.png");
+    width: 131px;
+    height: 124px;
+    z-index: 2;
+}
+.bestseller .sale-img img {
+    position: absolute;
+    top: 30px;
+    left: 22px;
+}
+.sale-label {
+    background: #ebe4e1;
+    padding: 30px 16px 15px 36px;
+    margin-left: 455px;
+    margin-right: 0;
+}
+.bestseller .price {
+    margin: 23px 0 15px 0;
+    font: 5.625em/1em Verdana, Geneva, sans-serif;
+}
+.bestseller .to-bag:link, .to-bag:visited {
+    padding: 14px 43px;
+    border: 3px solid;
+    display: inline-block;
+}
+.bestseller .rating {
+    display: inline-block;
+    margin-left: 46px;
+}
+.bestseller .ask-customer:link, .bestseller .ask-customer:visited {
+    display: block;
+    margin-top: 40px;
+    font: bold 0.750em/0.750em Verdana, Geneva, sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+/*
+  Orders slider section
+*/
+
+.orders-slider {
+    overflow: hidden;
+}
+.orders-slider .order-image {
+    display: table-cell;
+    vertical-align: bottom;
+    height: 155px;
+    overflow: hidden;
+}
+.orders-slider ul {
+    margin: 0;
+    padding: 35px 16px;
+    list-style-type: none;
+    white-space: nowrap;
+}
+.orders-slider li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.orders-slider li:first-child {
+    margin: 0;
+}
+.orders-slider .order-info {
+    position: relative;
+    margin-top: 18px;
+}
+.orders-slider .price {
+    position: absolute;
+    top: -15px;
+    right: 0;
+}
+.order-info .to-bag {
+    margin-top: 10px;
+}
+/*
+  Browse shop
+*/
+
+.browse-shop {
+    border-width: 2px 0 2px 0;
+    border-style: solid;
+    border-color: #dbd1cd;
+    height: 363px;
+    background-image: url("../images/browse-bg.jpg");
+    position: relative;
+}
+.browse-shop a:link, .browse-shop a:visited {
+    border: 3px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.750em;
+    padding: 12px 26px;
+    position: absolute;
+    left: 38.6%;
+    top: 167px;
+}
+.browse-shop a:hover, .browse-shop a:active {
+    text-decoration: underline;
+}

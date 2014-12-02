@@ -1,0 +1,162 @@
+/*
+  Base styles
+*/
+
+body {
+    font: 1em/1.3em Verdana, Geneva, sans-serif;
+    background-color: #4d4145;
+    background-image: url("../images/bg.jpg");
+}
+section, nav, footer {
+    max-width: 980px;
+    margin: 0 auto;
+}
+section {
+    background-color: #fff;
+}
+h2 {
+    font-size: 1.188em;
+    font-weight: normal;
+    margin: 0;
+}
+h2 + .author {
+    font-size: 0.750em;
+    line-height: 0.750em;
+    color: #a9928a;
+    margin: 6px 0;
+}
+.to-bag:link, .to-bag:visited {
+    color: #a9928a;
+    padding: 10px 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 2px solid;
+    font-size: 0.750em;
+    line-height: 0.750em;
+}
+.to-bag:hover, .to-bag:active {
+    background-color: #fff7f3;
+}
+.rating {
+    font-size: 0.750em;
+    font-weight: bold;
+}
+h3 {
+    font-size: 0.750em;
+    margin: 0;
+}
+h3 + .author {
+    font-size: 0.688em;
+    line-height: 0.688em;
+    font-weight: bold;
+    margin: 6px 0;
+}
+.price {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-size: 1.563em;
+}
+.flow-clear {
+    clear: both;
+}
+/*
+  Navigation menu
+*/
+
+nav {
+    height: 60px;
+    overflow: hidden;
+    background: #202020 url("../images/logo.png") no-repeat left center;
+}
+nav ul {
+    margin: 16px 36px 0 0;
+    text-align: right;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+nav a:link, nav a:visited {
+    font: 0.875em/0.875em Verdana, Geneva, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 2px;
+    display: inline-block;
+}
+nav a:hover, nav a:active {
+    background-color: #a1887f;
+}
+/*
+  END Navigation menu
+*/
+/*
+    Footer
+*/
+
+footer {
+    overflow: hidden;
+}
+footer ul {
+    margin: 0;
+    padding: 0 1em;
+    text-align: center;
+}
+footer li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+footer a:link, footer a:visited {
+    font: bold 0.688em/0.688em Verdana, Geneva, sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+footer a:hover, footer a:active {
+    text-decoration: underline;
+}
+footer .menu {
+    padding: 25px 16px;
+}
+/*payment logos*/
+
+.payment-logos {
+    background-color: transparent;
+    text-align: center;
+}
+.payment-logos {
+    padding: 18px 18px;
+}
+.payment-logos li {
+    margin: 0;
+}
+.payment-logos a:link, .payment-logos a:visited {
+    width: 43px;
+    height: 29px;
+    display: block;
+    opacity: 0.5;
+}
+.payment-logos a:hover, .payment-logos a:active {
+    opacity: 1;
+}
+.payment-logos .paypal {
+    background-image: url("../images/paypal.png");
+}
+.payment-logos .mastercard {
+    background-image: url("../images/mastercard.png");
+}
+.payment-logos .visa {
+    background-image: url("../images/visa.png");
+}
+.payment-logos .am-express {
+    background-image: url("../images/am-express.png");
+}
+.payment-logos .yandex-m {
+    background-image: url("../images/yandex-m.png");
+}
+/*
+    END Footer
+*/
