@@ -4,8 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bikes Shop: buy bike, best, cheap, sexy bikes</title>
-  <link rel="stylesheet" type="text/css" href="bower_components/normalize.css/normalize.css">
+  <title>Bikes Shop: buy bike. Cool, cheap, sexy bikes</title>
+  <link rel="stylesheet" type="text/css"
+     href="bower_components/normalize.css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles/base.css">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
 </head>
 
 <body>
@@ -14,12 +17,12 @@
 
   <nav>
     <ul>
-      <li>Bikes</li>
-      <li>Best Buy</li>
-      <li>Offers</li>
-      <li>Accessories</li>
-      <li>Contact</li>
-      <li>About Us</li>
+      <li><a href="">Bikes</a></li>
+      <li><a href="">Best Buy</a></li>
+      <li><a href="">Offers</a></li>
+      <li><a href="">Accessories</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="">About Us</a></li>
     </ul>
   </nav>
 
@@ -34,31 +37,14 @@
   <section class="bestseller">
     <div class="sale-img">
       <div></div>
-      <img src="">
+      <img src="images/bikes_13.jpg" height="236" width="387" alt="RetroSyperb Vii #1">
     </div>
     <div class="sale-label">
       <h2>Bicycle RetroSyperb Vii #1</h2>
-      <p class="author">by Rodriguez Else</p>
+      <p class="author"><i>by Rodriguez Else</i></p>
       <p class="price">299.99$</p>
       <a href="" class="to-bag">Add to Shopping bag</a>
       <div class="rating">Rating: 5.0
-        <ul class="stars">
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
-          </li>
-          <li>
-            <a href=""></a>
-          </li>
-        </ul>
       </div>
       <a href="" class="ask-customer">Ask the Customer a Question</a>
     </div>
@@ -70,39 +56,59 @@
     <!-- ul>(li>img+h3+p.author+p.price+a.to-bag)   -->
     <ul>
       <li>
-        <img src="" alt="">
-        <h3>Sport Bicycle 988</h3>
-        <p class="author">by Enrique Salmo</p>
-        <p class="price">139.99$</p>
-        <a href="" class="to-bag">Add to Shopping bag</a>
+        <div class="order-image">
+          <img src="images/bikes_21.jpg" height="144" width="221" alt="Sport Bicycle 988">
+        </div>
+        <div class="order-info">
+          <h3>Sport Bicycle 988</h3>
+          <p class="author"><i>by Enrique Salmo</i></p>
+          <p class="price">139.99$</p>
+          <a href="" class="to-bag">Add to Shopping bag</a>
+        </div>
       </li>
       <li>
-        <img src="" alt="">
-        <h3>Classic Bicycle</h3>
-        <p class="author">by Ankino Frique</p>
-        <p class="price">1 219.99$</p>
-        <a href="" class="to-bag">Add to Shopping bag</a>
+        <div class="order-image">
+          <img src="images/bikes_16.jpg" height="144" width="221" alt="Classic Bicycle">
+        </div>
+        <div class="order-info">
+          <h3>Classic Bicycle</h3>
+          <p class="author"><i>by Ankino Frique</i></p>
+          <p class="price">1 219.99$</p>
+          <a href="" class="to-bag">Add to Shopping bag</a>
+        </div>
       </li>
       <li>
-        <img src="" alt="">
-        <h3>Retro Bicycle #2</h3>
-        <p class="author">by Enrique Salmo</p>
-        <p class="price">899.99$</p>
-        <a href="" class="to-bag">Add to Shopping bag</a>
+        <div class="order-image">
+          <img src="images/bikes_24.jpg" height="126" width="230" alt="Retro Bicycle #2">
+        </div>
+        <div class="order-info">
+          <h3>Retro Bicycle #2</h3>
+          <p class="author"><i>by Enrique Salmo</i></p>
+          <p class="price">899.99$</p>
+          <a href="" class="to-bag">Add to Shopping bag</a>
+        </div>
       </li>
       <li>
-        <img src="" alt="">
-        <h3>Classic Bicycle</h3>
-        <p class="author">by Marco Spielmann</p>
-        <p class="price">1 209.99$</p>
-        <a href="" class="to-bag">Add to Shopping bag</a>
+        <div class="order-image">
+          <img src="images/bikes_19.jpg" height="145" width="239" alt="Classic Bicycle">
+        </div>
+        <div class="order-info">
+          <h3>Classic Bicycle</h3>
+          <p class="author"><i>by Marco Spielmann</i></p>
+          <p class="price">1 209.99$</p>
+          <a href="" class="to-bag">Add to Shopping bag</a>
+        </div>
       </li>
       <li>
-        <img src="" alt="">
-        <h3>Sport Bicycle 988</h3>
-        <p class="author">by Enrique Salmo</p>
-        <p class="price">139.99$</p>
-        <a href="" class="to-bag">Add to Shopping bag</a>
+        <div class="order-image">
+          <img src="images/bikes_21.jpg" height="128" width="224" alt="Sport Bicycle 988 #2">
+        </div>
+        <div class="order-info">
+          <h3>Sport Bicycle 988 #2</h3>
+          <p class="author"><i>by Enrique Salmo</i></p>
+          <p class="price">139.99$</p>
+          <a href="" class="to-bag">Add to Shopping bag</a>
+        </div>
       </li>
     </ul>
   </section>
@@ -118,24 +124,26 @@
   <footer>
     <section class="menu">
       <ul>
-        <li>terms & conditions</li>
-        <li>return policy</li>
-        <li>reviews</li>
-        <li>about shop</li>
-        <li>secure payment</li>
+        <li><a href="">Terms & conditions</a></li>
+        <li><a href="">Return policy</a></li>
+        <li><a href="">Reviews</a></li>
+        <li><a href="">About shop</a></li>
+        <li><a href="">Secure payment</a></li>
       </ul>
     </section>
     <section class="payment-logos">
       <ul>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href=""></a></li>
+        <li><a class="paypal" href=""></a></li>
+        <li><a class="mastercard" href=""></a></li>
+        <li><a class="visa" href=""></a></li>
+        <li><a class="am-express" href=""></a></li>
+        <li><a class="yandex-m" href=""></a></li>
       </ul>
     </section>
   </footer>
-
+  
+  <script src="bower_components/jquery-1.11.1/index.js"></script>
+  <script src="javascript/index.js"></script>
 </body>
 
 </html>

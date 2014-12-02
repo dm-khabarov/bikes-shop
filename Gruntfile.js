@@ -4,15 +4,19 @@ module.exports = function(grunt) {
     connect: {
       dev: {
         options: {
-          hostname: 'localhost',
-          port: 9000,
           livereload: true,
         },
       },
     },
+    csslint: {
+      css: {
+        src: ['styles/*.css']
+      },
+    },
     watch: {      
-      dic: {
-        files: ['index.html'],
+      htmlcss: {
+        files: ['index.html','styles/*.css'],
+        tasks: ['csslint'],
         options: {
           livereload: true,
         },
@@ -22,6 +26,7 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-csslint');
 
-  grunt.registerTask('default', ['connect', 'watch']);
+  grunt.registerTask('default', ['connect', 'csslint', 'watch']);
 }

@@ -16,6 +16,7 @@
     "tests"
   ],
   "devDependencies": {
-    "normalize.css": "~3.0.2"
+    "normalize.css": "~3.0.2",
+    "jquery-1.11.1": "http://code.jquery.com/jquery-1.11.1.js"
   }
 }
