@@ -4,11 +4,12 @@ PSD template from [this](http://designscrazed.org/free-photoshop-psd-website-tem
 For preview check file preview.jpg
 
 ## You need:
-  Install:
+Install:
   - nodejs;
   - grunt;
   - bower;
-  Run:
+
+Run:
   - npm install;
   - bower install;
   - grunt, open localhost:8000
